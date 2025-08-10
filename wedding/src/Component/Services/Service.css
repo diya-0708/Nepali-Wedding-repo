@@ -1,0 +1,45 @@
+.color{
+    color: maroon;
+}
+
+h1{
+    text-align: center;
+    margin-top: 44px;
+}
+
+.color1{
+        color: rgb(139, 183, 139); 
+
+}
+
+
+
+
+.card{
+    border: 1px solid hsla(0, 44%, 92%, 0.836);
+    border-radius: 1px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.192);
+    padding:10px;
+    margin: 10px;
+    text-align: center;
+    max-width: 300px;
+    display: inline-block;
+    justify-content: flex-end; 
+    margin-left: 55px;
+    margin-right: 42px;
+    margin-top: 45px;
+}
+
+.card .card-main{
+     font-weight: 100; 
+     color:maroon;
+
+}
+
+.card .card-text{
+    font-family:  Arial, sans-serif;
+         color: rgb(139, 183, 139);
+
+}
+
+

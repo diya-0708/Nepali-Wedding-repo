@@ -1,0 +1,234 @@
+/* .contact{
+    margin: 80px auto;
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.contact-col{
+    flex-basis: 48%;
+    color: maroon;
+}
+
+.contact-col h3{
+color: maroon;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contact-col h3 img{
+    width: 35px;
+    margin-left: 10px;
+}
+.contact-col p{
+    max-width: 450px;
+    list-style: 0.3;
+}
+
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-col ul li img{
+    width: 25px;
+    margin-right: 10px;
+    background: none;
+}
+
+.contact form input, .contact form textarea{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize: none;
+    border-radius: 10px;
+}
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+
+.btn{
+    background: #fff;
+    color:maroon;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn img{
+    width: 20px;
+    margin-left: 10px;
+    color: maroon;
+}
+
+.btn.dark-btn{
+    background:maroon;
+    color:aliceblue;
+}
+
+
+ */
+
+
+ .contact{
+    margin: 80px auto;
+    max-width: 80%;
+    display: flex;
+    align-content: center;
+    /* justify-content: space-between; */
+    margin-right:135px;
+}
+
+.contact-col{
+    flex-basis: 48%;
+    color:maroon;
+}
+.contact-col h3{
+    color:maroon;
+    font-weight: 500;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+.contact-col h3 img{
+    width: 35px;
+    margin-left: 10px;
+        margin-left: 60px;
+
+}
+.contact-col p{
+    max-width: 450px;
+    list-style: 0.3;
+        margin-left: 60px;
+
+}
+.contact-col ul li{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+        margin-left: 60px;
+
+}
+.contact-col ul li img{
+    width: 25px;
+    margin-right: 10px;
+}
+.contact form  input, .contact form textarea{
+    display: block;
+    width: 100%;
+    background:rgba(237, 176, 176, 0.11);
+    padding: 15PX;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15PX;
+    margin-top: 5px;
+    resize: none;
+}
+
+.contact-col span{
+    display: block;
+    margin: 20px 0;
+}
+
+/* .btn{
+    background: #fff;
+    color:maroon;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+.btn {
+  background: maroon;
+  color: aliceblue;
+  font-size: 14px;             /* smaller text */
+  padding: 14px  40px;            /* smaller padding */
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;          /* ✨ shrink to fit content */
+  white-space: nowrap;         /* prevent wrapping */
+}
+
+.btn img {
+  width: 10px;                 /* smaller icon */
+  height: 14px;
+  margin-left: 4px;            /* smaller gap between text and icon */
+}
+
+.btn.dark-btn {
+  background: maroon;
+  color: aliceblue;
+}
+
+.contact h1{
+    color:maroon;
+     display: flex;
+  justify-content: center;
+  align-items: center;
+    margin: 0;
+    /* position: absolute; */
+
+
+    /* margin-top: -80px;
+    margin-left: 20px;
+} */
+}
+
+/* .contact h1{
+    margin-bottom: 800px;
+    /* margin-left: 10px; */ 
+
+/* .contact-me {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  font-size: 32px;
+  font-weight: bold;
+  color: maroon; /* optional */
+
+/* .contact-me {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+} */
+
+
+.contact-me {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 28px;
+  color: maroon; /* Optional */
+}

@@ -1,0 +1,218 @@
+/* CSS */
+.services-section {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.services-header h2 {
+  background-color: maroon;
+  color: white;
+  display: inline-block;
+  padding: 5px 25px;
+  font-size: 22px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.tagline {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #666;
+}
+
+.description {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 16.5px;
+  color: #444;
+  line-height: 1.6;
+  font-weight: 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-column-gap: 0px !important;
+  margin-left: 180px;
+  margin-right: 190px;
+  margin-top: 50px;
+  
+}
+
+.service-card {
+  background:white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgb(214, 213, 213);
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  height: 100px; /* Increase value */
+  width: 400px;
+  margin: 0 auto;
+
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  width: 40px;
+  margin-bottom: 10px;
+}
+
+.service-card span {
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  position: relative;
+  top: -50px;
+  right: 55px;
+}
+
+
+.service-card .first {
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  position: relative;
+  top: -40px;
+  right: 30px;
+  /* color: maroon; */
+  /* baseline-shift: 100px; */
+  /* margin-left: 10px; */
+}
+
+.service-card .second {
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  position: relative;
+  top: -40px;
+  right: 30px;
+}
+
+.service-card .third {
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  position: relative;
+  top: -40px;
+  right: 45px;
+}
+
+
+.service-card .fourth {
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  position: relative;
+  top: -40px;
+  right: 10px;
+}
+
+
+.service-card .fifth {
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  position: relative;
+  top: -40px;
+  right: 8px;
+}
+
+
+.service-card .sixth {
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  position: relative;
+  top: -40px;
+  right: 6px;
+}
+
+/* .services-headerr{
+   position: relative;
+   bottom: -50px;
+} */
+
+
+.services-headerr h2 {
+  background-color:maroon;
+  color: white;
+  display: inline-block;
+  padding: 6px 25px;
+  font-size: 22px;
+}
+
+.services-headerr{
+  margin-top: 100px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.descriptionn {
+  max-width: 700px;
+  margin: 20px auto;
+  font-size: 20px;
+  color: #444;
+  line-height: 1.6;
+  font-family: Arial,  sans-serif;
+  font-weight: 50;
+
+}
+
+
+.services-image {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services-image img {
+  width: 100%;
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Crop to fill the box */
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-image img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.triangle {
+  margin-left: 400px;
+  margin-top: 30px;
+  color: maroon;
+}
+
+
+
+.trianglee{
+  margin-left: 420px;
+  margin-top: 30px;
+  color: maroon;
+}
+
+.triangleE {
+  margin-left: 435px;
+  margin-top: 30px;
+  color: maroon;
+}
+.triangleEE {
+  margin-left: 420px;
+  margin-top: 30px;
+  color: maroon;
+}
+
+
+
